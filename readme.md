@@ -78,9 +78,14 @@ What technology were used and how it is used?
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
--  Multi-page website layout
+- Single page website layout
 - Responsive design with CSS flexbox
 - Product Showcase
+- Product Details
+- Feature Highlights
+- Hover
+- Animations
+- Homepage
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -132,3 +137,4 @@ WD-ProjectName
 | Dribbble - Feature Design Search | Platform to search for design features and inspiration	 | https://dribbble.com/search/feature-deaign |
 | 100+ Underline/Overlay Animations - The Advanced CSS Collection | Guide to advanced CSS animations | https://dev.to/afif/still-100-underline-overlay-animations-the-advanced-css-collection-4mol |
 | W3Schools CSS	 | Comprehensive resource for learning CSS | https://www.w3schools.com/css/default.asp
+|Daily handpicked UI inspiration & patterns|Reference for page layout|https://uigarage.net/|
