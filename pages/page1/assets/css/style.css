@@ -1,0 +1,240 @@
+/*page1*/
+@font-face {
+    font-family: 'samsung1';
+    src: url(../fonts/SamsungOne-400.ttf);
+}
+@font-face {
+    font-family: 'samsung2';
+    src: url(../fonts/SamsungOne-700.ttf);
+}
+@font-face {
+    font-family: 'samsung3';
+    src: url(../fonts/SamsungSharpSans-Bold.ttf);
+}
+
+
+
+body {
+    font-family:  'samsung1';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 30px;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'samsung3';
+}
+
+.TITLE {
+    font-family: 'samsung2';
+    padding: 20px;
+    position: relative;
+}
+
+.TITLE:before,
+.TITLE:after {
+    content: "";
+    position: absolute;
+    inset: 0 -40px;
+    background:
+      linear-gradient(currentColor 0 0) 0 0,
+      linear-gradient(currentColor 0 0) 100% 100%;
+    background-size: var(--d,0%) 3px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition:0s .3s,opacity .3s;
+  }
+
+.TITLE::after{
+    inset: -40px 0;
+    background-position: 100% 0,0 100%;
+    background-size: 3px var(--d,0%);
+}
+
+.TITLE:hover:before,
+.TITLE:hover:after {
+    --d: 100%;
+    inset: 0;
+    opacity: 1;
+    transition:.4s,opacity .2s;
+}
+
+.nav-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-button {
+    width: 9em;
+    position: relative;
+    height: 3.0em;
+    border: 3px ridge #ea7414;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: transform 0.3s ease-out;
+    border-radius: 0.3em;
+    font-family: 'samsung2';
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-button::after,
+.nav-button::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.nav-button::before {
+    top: 80%;
+}
+
+.nav-button:hover::before,
+.nav-button:hover::after {
+    transform: scale(0);
+}
+
+.nav-button:hover {
+    box-shadow: inset 0px 0px 25px #ea9414;
+    transform: scale(1.1);
+}
+
+.hero-main {
+    margin-bottom: 20px; 
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-main img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1; 
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .container img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .container.reverse img {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+.container {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    width: 1500px;
+    max-width: 1500px;
+    height: 40vh;
+    border: 1px solid #000000;
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+}
+
+.container img {
+        width: 40%;
+        height: auto;
+        max-width: 600px;
+        border-radius: 10px; 
+}
+
+.container.reverse img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.container.reverse {
+    flex-direction: row-reverse;
+}
+
+.container .description {
+    flex: 1;
+    padding: 10px;
+}
+
+.container .description p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container .description button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container .description button:hover {
+    background-color: #555;
+}
+
+ .card-title {
+    font-family: 'samsung3';
+}
+
+ .card-text {
+    font-family: 'samsung2';
+}
+
+ .feature-title {
+    font-family: 'samsung1';
+}
