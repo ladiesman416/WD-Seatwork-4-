@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/oxlv7l.jpg" alt="Nyebe"  >
+    <img src="./assets/img/oxlv7l.jpg" alt="#" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Feature Display Website</h3>
+  <h3 align="center">WD-Seatwork 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-This project showcases distinct design layouts for different features using pure HTML and CSS.
+This website showcases distinct designs for different feature layout using HTML and CSS.
 </div>
 
 <br />
@@ -57,35 +57,19 @@ This project showcases distinct design layouts for different features using pure
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
-What is the project?
-- A feature page showcasing different feature pages with a modern and responsive design.
 
-What's the purpose?
-- To display products attractively and encourage user engagement and purchases.
-
-What are key components?
-- Single-page website layout.
-- Responsive design using CSS flexbox.
-- Showcase of Products for displaying features.
-
-What technology were used and how it is used?
-- HTML: Structures the content.
-- CSS: Styles the page and makes it responsive.
-- Google Fonts: Enhances readability
+This project is a modern and responsive feature display website, showcasing various feature pages designed to highlight different products. Built with HTML and CSS, it aims to create a visually appealing and user-friendly experience. Key components include the Homepage, Product Details Page, Feature Highlights, Hover Effects, and Animations. The primary purpose of this project is to present products attractively and foster user engagement.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Single page website layout
-- Responsive design with CSS flexbox
-- Product Showcase
-- Product Details
-- Feature Highlights
+
+- Product showcase
 - Hover
 - Animations
-- Homepage
+- Feature Highlights
+- Multi page website layout
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -125,6 +109,7 @@ WD-ProjectName
 |     └─ index.html
 └─ index.html
 └─ readme.md
+
 ```
 
 ## Resources
